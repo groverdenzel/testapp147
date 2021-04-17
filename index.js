@@ -70,7 +70,7 @@ io.on('connection', (socket) => {
         // random_number = Math.floor(Math.random() * (colors.length - 0 + 1)) + 0
         // acolor = colors[random_number]
         currentplayers[data["username"]] = [0,"","",0,"red",0,1];
-        numofplayers = parseInt(Math.random() * (4 - 2) + 2);
+        numofplayers = parseInt(Math.random() * (6 - 2) + 2);
         //a console.log('NOP: ' + String(numofplayers))
         random_score_determiner = Math.floor(Math.random() * (11 - 1 + 1)) + 1
         synced_game_time = 60
